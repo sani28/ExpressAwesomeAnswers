@@ -7,7 +7,7 @@ const  bodyParser = require('body-parser');
 const  nodeSass = require('node-sass-middleware');
 
 const  index = require('./routes/index');
-vconst users = require('./routes/users');
+const users = require('./routes/users');
 
 const app = express();
 
