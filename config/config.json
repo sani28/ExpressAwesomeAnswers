@@ -1,0 +1,14 @@
+{
+  "development": {
+    "database": "aa_dev",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "aa_dev",
+    "dialect": "postgres"
+  },
+  "production": {
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

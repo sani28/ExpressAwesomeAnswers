@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "debug": "nodemon --inspect ./bin/www"
+    "debug": "nodemon --inspect ./bin/www",
+    "db:create": "createdb --echo aa_dev",
+    "db:drop": "dropdb --if-exists --echo aa_dev"
   },
   "dependencies": {
     "aws-sdk": "^2.93.0",
